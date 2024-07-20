@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Background Properties Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    /* Style for the main container */
+    .box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 600px; /* Adjust size as needed */
+        height: 600px; /* Adjust size as needed */
+        gap: 10px;
+    }
+    
+    /* Style for each section */
+    .section {
+        background-color: #f0f0f0; /* Fallback color */
+        background-size: cover; /* Fallback for background-size */
+    
+        /* Common styles for all sections */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.5em;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Background properties for section1 */
+    .section1 {
+        background-image: url('jpghttps://previews.123rf.com/images/inkdrop/inkdrop2004/inkdrop200404248/145607147-letter-m-made-from-binary-code-digits-technology-background.jpg'); /* Replace with your image URL */
+        background-size: auto; /* Fallback */
+        background-repeat: repeat; /* Fallback */
+        background-position: center; /* Fallback */
+    }
+    
+    /* Background properties for section2 */
+    .section2 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvKYcKTH5wWbtyeoC-yKy6uhcZi9Uth5xWNw&s');
+    css
+    Copy code
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+    
+    /* Background properties for section3 */
+    .section3 {
+        background-image: url('');
+        background-size: cover;
+        background-repeat: repeat-x;
+        background-position: center bottom;
+    }
+    
+    /* Background properties for section4 */
+    .section4 {
+        background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fletter-n-font-made-from-binary-code-digits-on-a-dark-blue-background-image355148838.html&psig=AOvVaw0P_4U1HyM4JttfOOyMd1wI&ust=1721318985566000&source=images&cd=vfe&opi=89978449&ved=0CBQQjhxqFwoTCMiFw4e7rocDFQAAAAAdAAAAABAE');
+        background-size: 50% 50%;
+        background-repeat: repeat-y;
+        background-clip: padding-box;
+        background-blend-mode: multiply; /* Example blend mode */
+    }
+</style>
+<body>
+
+<div class="box">
+    <div class="section section1"></div>
+    <div class="section section2"></div>
+    <div class="section section3"></div>
+    <div class="section section4"></div>
+</div>
+
+</body>
+</html>

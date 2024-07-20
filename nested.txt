@@ -1,0 +1,67 @@
+<html>
+  <head>
+    
+  </head>
+ 
+  <body>
+    <table border=2px height=400px width=500px >
+        
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
+        </tr>
+        
+        
+        <tr>
+         <td colspan="2">Nestsed Table 2</td>
+         <td colspan="2">Nested table 1</td>
+        </tr>
+        
+        
+        <tr>
+          <td>column 1</td>
+          <td>column 2</td>
+          <td rowspan="2">
+            <ul>
+              <li>List item</li>
+              <li>List item</li>
+              <li>List item</li>
+              </ul></td>
+        </tr>
+        
+        
+        <tr>
+         <td>abc</td>
+          <td>def</td>
+        </tr>
+        
+        
+        <tr>
+           <td colspan="2"></td>
+          <td colspan="2"></td>
+        </tr>
+        
+        
+        <tr>
+          <td colspan="2"></td>
+          <td colspan="2"></td>
+        </tr>
+        
+        
+        <tr>
+          <td colspan="2">Nestsed Table 3</td>
+         <td>nested table 4</td>
+        </tr>
+        
+        
+        <tr>
+          <td><a href="https://onecompiler.com/html/42jwsqrxa">Nested table</a></td>
+          <td>Demo continued</td>
+          <td>HTML</td>
+          
+        </tr>
+        
+
+    </table>
+  </body>
+</html>

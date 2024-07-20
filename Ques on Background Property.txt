@@ -1,0 +1,37 @@
+Create a web page with a single box divided into four sections. Each section will have its own background image and style, demonstrating the use of various background properties including background-image, background-size, background-repeat, background-position, background-clip, and background-blend-mode.
+
+Instructions:
+
+Create a Container Box:
+
+Create a main container <div> with a class name box that will hold four sections.
+Divide the Box into Four Sections:
+
+Inside the container, create four <div> elements, each representing a section with class names section1, section2, section3, and section4.
+Apply Background Properties:
+
+Section 1 (section1):
+
+Background Image: Use a background image of your choice.
+Background Size: Use background-size to fit the image exactly to the section’s size.
+Background Repeat: Set the background-repeat to repeat the image.
+Background Position: Center the background image within the section.
+Section 2 (section2):
+
+Background Image: Use a different background image.
+Background Size: Set background-size to contain to fit the image within the section.
+Background Repeat: Set the background-repeat to no-repeat so the image does not repeat.
+Background Position: Position the background image at the top right corner.
+Section 3 (section3):
+
+Background Image: Use another background image.
+Background Size: Set background-size to cover to ensure the image covers the entire section.
+Background Repeat: Set background-repeat to repeat-x so the image repeats horizontally.
+Background Position: Center the image horizontally and align it at the bottom.
+Section 4 (section4):
+
+Background Image: Use a distinct background image.
+Background Size: Set background-size to 50% 50% to resize the image to half of the section's size.
+Background Repeat: Set the background-repeat to repeat-y so the image repeats vertically.
+Background Clip: Use background-clip to padding-box so the background only extends to the padding area.
+Background Blend Mode: Set a background-blend-mode to mix the image with a background color.

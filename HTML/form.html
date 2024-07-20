@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2><u>Job Application</u></h2>
+    <form action="">
+        <label for="applicant name">Applicant's Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="email">Email
+            <input type="text" name="email" id="email"><br><br>
+        </label>
+        <label for="number">Phone Number
+            <input type="number" name="number" id="number"><br><br>
+        </label>
+        <label for="DoB">D.O.B
+            <input type="date" name="date" id="date" pattern="/d{1,2}/\d{1,2}/\d{4}"><br><br>
+        </label>
+        <label for="Gender">
+            Gender <br>
+            <br>
+            <input type="radio" name="gender" id="male">Male <br><br>
+            <input type="radio" name="gender" id="female">Female <br><br>
+        </label><br><br>
+        <label for="Education">Highest Education
+            <input type="text"><select name="education" id="education"></select><br><br>
+        </label>
+        <label for="Job Type">
+            Preferred Job Type <br><br>
+            Software Engineer<input type="checkbox" name="job" id="job">
+            Data Analyst <input type="checkbox" name="job" id="job">
+            Data Scientist <input type="checkbox" name="job" id="job"><br><br>
+        </label>
+        <label for="Extra">Additional Comments
+            <textarea name="comments" id="comments" rows="2" cols="100"></textarea><br><br>
+        </label>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

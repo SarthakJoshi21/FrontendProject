@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    input{
+        border: 1px solid black;
+        padding:15px;
+        margin: 1px;
+        width: 38.5%;
+    }
+    .email{
+        width: 80%;
+    }
+    select{
+        border: 1px solid black;
+        padding:15px;
+        margin: 1px;
+        width: 38.5%;
+    }
+    button{
+        padding: 10px;
+    }
+    body{
+        background-color: rgb(229,228,226);
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+    }
+</style>
+<body>
+    <h1>Job Application Form</h1>
+    <b><hr></b>
+    <p>Thank you for your interest in working with us. Please check below for availabel job opportunities that meet your criteria and send your application by filling out the Job Application Form.</p>
+    <br>
+    <form action="">
+        <label for="Name">Name</label><br><br>
+        <input type="text" id="firstName" placeholder="First" required>
+        <input type="text" id="secondName" placeholder="Last" required><br><br>
+        <label for="email">Email</label><br><br>
+        <input type="email" placeholder="abc@example.com" class="email" required><br><br>
+        <label for="positin">What position are you applying for?</label><br><br>
+        <select name="positon" id="position">
+            <option value="java">Java FullStack</option>
+            <option value="mern">Mern FullStack</option>
+            <option value="data">Data Analyst</option>
+        </select><br><br>
+        <label for="date">Available date</label><br><br>
+        <input type="date" id="date" required><br><br>
+        <label for="resumeLink">Please provide your resume link</label><br><br>
+        <input type="text" placeholder="http://www.example.com/" required><br><br>
+        <label for="resume">Please upload your resume</label><br><br>
+        <input type="file" placeholder="Resume" required><br><br>
+        <label for="optional">Do you have references?(optional)</label><br><br>
+        <input type="text" placeholder="First">
+        <input type="text" placeholder="Second"><br><br>
+        <label for="reference">Reference Email</label><br><br>
+        <input type="email" name="reference email" placeholder="abc@example.com"><br><br>
+        <button class="reset">Reset</button>
+        <button class="apply" >Apply</button>
+    </form>
+</body>
+</html>

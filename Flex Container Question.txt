@@ -1,0 +1,18 @@
+You are tasked with creating a responsive layout for a product gallery using HTML and CSS Flexbox. The gallery layout should adhere to the following specifications using Flexbox container properties:
+
+Container Setup:
+
+Create a <div> container with a class of gallery-container to hold a grid of product items.
+Flex Container Properties:
+
+Use Flexbox properties to achieve the following:
+Ensure that the product items dynamically adjust their arrangement based on screen size.
+Implement a responsive layout where:
+On smaller screens (less than 768px), display one product item per row.
+On larger screens (768px and above), display multiple product items per row, evenly spaced.
+Flex Container Styles:
+
+Style the gallery-container with a background color of #f0f0f0, padding of 20px, and ensure it spans the entire width of its parent container.
+Flex Item Styling:
+
+Each product item (<div> with class product-item) should have a minimum width of 200px, a maximum width of 300px, and maintain aspect ratio as they resize.

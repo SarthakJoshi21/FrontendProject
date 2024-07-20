@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Camp Registration</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1><u>Summer Camp Registration</u></h1>
+    <p>Summer camp registration must be completed at least 1 month prior to the event.</p>
+    <h3><u>Athelete Information</u></h3>
+    <form action="">
+        <label for="athelete name">
+            Athelete's Name <br>
+            <br>
+            <input type="text" placeholder="First">
+            <input type="text" placeholder="Last">
+        </label>
+        <br>
+        <br>
+        <label for="birth date">Birth of Date <br>
+            <br>
+        <input type="date" pattern="/d{1,2}/\d{1,2}/\d{4}" placeholder="MM/DD/YYYY">
+        </label>
+        <br>
+        <br>
+        <label for="grade">
+            Grade <br><br>
+            <input type="text" placeholder="Grade">
+        </label>
+        <br>
+        <br>
+        <label for="Gender">
+            Gender <br>
+            <br>
+            <input type="radio" name="male" id="gender">Male <br><br>
+            <input type="radio" name="female" id="gender">Female <br><br>
+        </label><br><br>
+        <label for="address">
+            Address <br><br>
+            <input type="text" name="address" id="address" placeholder="Address Line 1"><br><br>
+            <input type="text" name="address" id="address" placeholder="Address Line 2"><br><br>
+            <input type="text" name="city" id="city" placeholder="City">
+            <input type="text" name="region" id="region" placeholder="Region"><select name="region" id="Region"></select><br><br>
+            <input type="text" name="postal" id="postal" placeholder="Postal/Zip Code">
+            <input type="text" name="country" id="country" placeholder="Country"><select name="country" id="Country"></select>
+        </label><br><br>
+        <h3>Guardian Information</h3>
+        <form action="">
+            <label for="Guardian Name">
+                Guardian Name <br><br>
+                <input type="text" name="first" id="first" placeholder="First">
+                <input type="text" name="last" id="last" placeholder="Last"><br><br>
+            </label>
+            <label for="">
+                Guardian Home Phone
+                <input type="text" name="home" id="home"><br><br>
+                Guardian Mobile Number
+                <input type="text" name="mobile" id="mobile"><br><br>
+            </label>
+            <label for="email">Guardian Email
+                <input type="text" name="email" id="email" placeholder="Enter the Email"><br><br>
+            </label>
+            <label for="textarea">
+                Does the athlete have any medical conditions?If yes, please describe. <br><br>
+                <textarea name="medical conditions" id="conditions" rows="2" cols="100"></textarea><br><br>
+            </label>
+            <label for="button">
+            <button id="reset">Reset Form</button>
+            <button id="submit">Submit Form</button>
+            </label>
+        </form>
+    </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>HTML Assignment 3</title>
+  </head> 
+  <style>
+    table{
+      border-collapse: collapse;
+            border: 1px solid black;
+            margin: 20px auto;
+    }
+     td, th {
+            border: 1px solid black;
+            padding: 1px; 
+            
+        }
+  </style>
+  <body>
+    <h1><center>HTML Assignment #3</center></h1>
+    <table class="middle" id="table-1" width="400px" height="100px">
+    
+      <tr>
+        <th><p style="text-align: left">left</p></th>
+        <th><p style="text-align: center">center</p></th>
+        
+        <th><p style="text-align: right">right</p></th>
+      </tr>
+      
+      <tr>
+        <th><p style="text-align: left">left</p></th>
+        <th><p style="text-align: center">center</p></th>
+        
+        <th><p style="text-align: right">right</p></th>
+      </tr>
+      
+      <tr>
+        <th><p style="text-align: left">left</p></th>
+        <th><p style="text-align: center">center</p></th>
+        
+        <th><p style="text-align: right">right</p></th>
+      </tr>
+        
+    </table>
+    
+    <table class="middle" id="table-2" width="400px" height="100px">
+      <tr ><td colspan="6"></td></tr>
+      
+      <tr><td rowspan="4"></td>
+      <td ></td>
+      <td ></td>
+      <td></td>
+      <td></td>
+      <td></td></tr>
+      
+      <tr><td><td colspan="3" rowspan="2"></td></td></tr>
+      
+      <tr><td><td></td></td></tr>
+      
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      
+     
+    
+    <tr ><td colspan="6"></td></tr>
+      
+    </table>
+    
+    <table class="middle" id="table-2" width="400px" height="100px">
+     <tr bgcolor="green">
+        <td colspan="6"></td>
+      </tr>
+      
+      <tr><td width="200"  class="imageContainer"><center><img src="https://images.unsplash.com/flagged/photo-1556514767-5c270b96a005?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDI2fHxvcHRpbWl6YXRpb258ZW58MHx8fHwxNjcxMDAyOTIz&ixlib=rb-4.0.3&q=80&w=2000" height="50px" width="50px"</img></center></td></tr>
+      
+      <tr bgcolor="blue"><td colspan="6"></td></tr>
+      
+      </table>
+  </body>
+</html>

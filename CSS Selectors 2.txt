@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        margin:5px;
+        padding:5px;
+      }
+      .abc{
+        background-color: grey;
+      }
+      
+      p{
+        background-color: white;
+      }
+      .bcd{
+        background-color: green;
+      }
+      
+      input[type="text"]{
+        border:5px solid black;
+      }
+      
+      #unique{
+        background-color: red;
+      }
+      
+      div h1{
+        background-color: #A5E535;
+      }
+      
+      .parent > p{
+         background-color: #E535A2;
+      }
+      
+      .child-container > p{
+        background-color: #3B1AF3;
+        color:white;
+      }
+      h1 + p {
+        background-color: #1AF3C2;
+      }
+      h2 + p{
+        background-color: #17686D;
+        
+        color:#0AFFF4;
+      }
+      div header h1 {
+         background-color: #FFE800;
+      }
+      h1 ~ p{
+        background-color: #1DFF80;
+      }
+       h1 ~ div{
+        background-color: #1A3425;
+        color:white;
+      }
+      
+      p:first-child {
+        background-color: #D005F9;
+      }
+      
+      p:nth-child(2){
+        background-color: #D005F9;
+      }
+      
+      p:nth-child(odd){
+        background-color: red;
+      }
+      
+      a:hover{
+        border: 5px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="new">
+      <header>
+        <h1>Child to child</h1>
+      </header>
+    </div>
+    
+    
+    
+    <div>
+      <h1>Child 1</h1>
+      <h2>Child 2</h2>
+      <div>
+        <h1>child of outer div</h1>
+      </div>
+      <p>Child 3</p>
+      <h1>Child 4</h1>
+    </div>
+    <div class="abc">
+      <input type=text>
+      <p class="bcd">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
+      <p >Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
+      <p id="unique">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
+      <p class="bcd">Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
+      <p>Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.</p>
+    </div>
+    
+    <div class="parent">
+      <p>Encyclopedia, created and edi</p>
+      <div class="child-container">
+        <p>Wikipedia is a free online encyclopedia</p>
+      </div>
+    </div>
+    
+    <div class="content">
+      <h1>picker and discover beautifu</h1>
+      <p> This is P1 picker and discover beautifu</p>
+      <p> This is P2 Find that perfect color with our color l</p>
+      <h2>picker and discover beautifu</h2>
+      <p> This is P3 picker and discover beautifu</p>
+    </div>
+    
+    <div class="generalSibling">
+      <h1>General</h1>
+      <p>Sibling</p>
+      <p>Selector</p>
+      <p>Example</p>
+      <div>With a DIV</div>
+    </div>
+    
+    <div>
+      <p>Paragraph 1</p>
+      <p>Paragraph 2</p>
+      <p>Paragraph 3</p>
+      <p>Paragraph 4</p>
+      <p>Paragraph 5</p>
+      <a href="#">Hover me</a>
+      <input type="text" placeholder="Focus me">
+    </div>
+  </body>
+</html>

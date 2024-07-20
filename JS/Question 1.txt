@@ -1,0 +1,18 @@
+Programming Language Recommendation Form
+
+You are tasked with creating a web page that allows users to recommend their favorite programming languages based on certain criteria. Your task involves creating a form that includes multiple input types and interactive elements.
+
+Requirements:
+Heading and Introduction: Include a descriptive heading (<h1>) and a brief introduction paragraph (<p>).
+
+Image Display: Display an image (<img>) of each programming language logo mentioned in the form.
+
+List of Programming Languages: Provide a list (<ul> or <ol>) where users can select their favorite programming languages (Java, Python, JavaScript, C#).
+
+Form for User Input: Design a form (<form>) that collects the following information:
+
+User's name (<input type="text">)
+User's email (<input type="email">)
+A dropdown (<select>) to rate their expertise in programming (options: Beginner, Intermediate, Advanced)
+A textarea (<textarea>) for additional comments or recommendations.
+Submit Button: Include a button (<button>) to submit the form.

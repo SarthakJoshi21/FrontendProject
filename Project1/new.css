@@ -1,0 +1,39 @@
+.bar{
+    background-color: Red;
+    list-style-type: none;
+    padding: 12px 23px 12px 23px;
+    border: 12px 23px 12px 23px;
+}
+.home{
+    display: inline;
+    color:aqua;
+    list-style-type: none;
+    float: left;
+    padding: 12px 23px 12px 23px;
+    border: 12px 23px 12px 23px;
+    margin: 12px 23px 12px 23px;
+}
+.services{
+    list-style-type: none;
+    display: inline;
+    float: left;
+    padding: 12px 23px 12px 23px;
+    border: 12px 23px 12px 23px;
+    margin: 12px 23px 12px 23px;
+}
+.about{
+    display: inline;
+    list-style-type: none;
+    float: left;
+    padding: 12px 23px 12px 23px;
+    border: 12px 23px 12px 23px;
+    margin: 12px 23px 12px 23px;
+}
+.contact{
+    display: inline;
+    float: left;
+    padding: 12px 23px 12px 23px;
+    border: 12px 23px 12px 23px;
+    margin: 12px 23px 12px 23px;
+    list-style-type: none;
+}
