@@ -1,0 +1,25 @@
+You are tasked with creating a responsive grid layout for a portfolio website. Implement a grid layout using CSS Grid that satisfies the following requirements:
+
+Grid Container:
+
+Use CSS Grid to create a layout with 3 columns and 2 rows.
+The columns should take up equal space (1fr) and the rows should adjust based on content (auto).
+Grid Items:
+
+Create six grid items (div elements) inside the grid container.
+Each grid item should have a distinct background color, different from its neighboring items.
+Grid Areas:
+
+Define specific areas within the grid using grid-template-areas to create a structured layout.
+Include areas for a header, sidebar, main content, and footer.
+Alignment:
+
+Center the grid container horizontally on the page.
+Align the items within their respective areas using grid-area.
+Responsive Design:
+
+Implement a media query that changes the grid layout to a single column on screens narrower than 768px.
+Ensure that each item stacks vertically in the new layout.
+Instructions:
+
+Use appropriate CSS properties (display, grid-template-columns, grid-template-rows, grid-template-areas, justify-items, align-items, etc.) to achieve the layout.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .notification-badge{
+        padding: 10px;
+        margin: 10px;
+        border: 1px solid white;
+        background-color: red;
+        border-radius: 25px;
+        width: 10%;
+        text-align: center;
+        float: right;
+        font-weight: bold;
+        font-size: 14px;
+        animation: slideDown 0.5s ease-out forwards;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+
+    }
+    @keyframes slideDown {
+        from{
+            transform: translateY(-50px);
+        }
+        to{
+            transform: translateY(20px);
+        }
+    }
+    .notification-badge:hover{
+        background-color: blue;
+        transform: translateY(10px) scale(2.1);
+    }
+</style>
+<body>
+    <div class="notification-badge">New Message</div>
+</body>
+</html>

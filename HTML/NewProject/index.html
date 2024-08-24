@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AccioJob Sample Webpage</title>
+    <meta charset="UTF-8" />
+    <!--- styleSheets, libraries, depedencies, scripts links, etc -->
+    >
+  </head>
+
+  <body>
+    <div id="app" class="myClass">YOU HAVE REACHED THE APP DIV</div>
+
+    <script src="./index.js" type="module"></script>
+
+    <h1>Welcome to my Web-Page</h1>
+    <p>
+      Something about my page
+      <br />
+      <br />
+      <button id="one">One Button</button>
+      <button>Two Button</button>
+    </p>
+    <a href="#"> Click on Me </a>
+  </body>
+</html>
+
+<!-- DOM Manipulation 
+
+In an HTML Document - 2 Major Sections : 
+  <head> </head> --- Elements apart mostly related to the 
+  content of the webpacge; but not the copntent itself
+
+  <body> </body> -- Elements which make up the weppage i.e the actual content
+
+  How to link a Script to your HTML Doc ? 
+
+    use - script - tag and provide the location of your script using the property
+     - src; type property must be set as module.
+
+     Relative Addresses - Gives path relative to current file's address i.e.
+      in relation to the place where you're writing the code
+      current location - '.'
+      ./sub/folder
+      {current folder has a child-path/sub-folder inside it called - 'sub'}
+
+      If I say : path = ./file.js || 
+      Where is the file? file.js is at the same location as current 
+
+      src = './script.js'
+
+     Absolute Addresses - Gives Complete path to your file from the root
+     /root/usr/bhagat/applications/documents/myProject/script.js
+-->

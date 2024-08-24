@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html&CssWebsiteForFrontenedWeek2Contest</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root{
+    --txtClr: rgb(232, 202, 31);
+   --bodyClr: rgb(21, 20, 20);
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bodyClr);
+  color: var(--txtClr)
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: var(--txtClr);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--bodyClr)
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(27, 25, 25);
+  font-size: 18px;
+}
+
+/* here the styling for second part */
+.intro {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 15px;
+}
+.intro .about p,h1{
+    color: white;
+    font-size: larger;
+}
+
+.about button {
+  background-color: var(--txtClr);
+  border-radius: 50px;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-weight: bold;
+}
+.contactUs h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color : var(--txtClr);
+  margin-left: 20px;
+  
+}
+
+.img{
+    border: 5px solid rgb(50, 50, 74);
+}
+img{
+    width: 40vw;
+}
+.contactUs form {
+  display: flex;
+  flex-direction: column;
+}
+h1{
+    font-size: 30px;
+}
+.contactUs form input {
+  border: 2px solid var(--txtClr);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  width: 90vw;
+  background-color: var( --bodyClr)
+}
+.contactUs .cnum input {
+  width: 25vw;
+}
+.contactUs button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 20px;
+  margin : 5px 40vw;
+  height: 40px;
+  text-align: center;
+  padding: 13px 5px 5px 5px;
+  background-color: var(--txtClr);
+  font-weight: bold;
+  border: none;
+}
+ 
+::placeholder {
+    color:  var(--txtClr);
+    opacity: 1; 
+}
+
+/* styling for the third section */
+table{
+    margin:50px 30px;
+}
+.footer{
+    background-color: var(--txtClr);
+    color:rgb(19, 17, 17);
+}
+table,th{
+    border:1px solid var(--txtClr);
+    width: 100vw;
+}
+th,td{
+    padding: 5px 10px;
+}
+
+table{
+    color: var(--txtClr);
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+}
+  </style>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Startup</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="intro">
+      <div class="about">
+        <h1>StartUp Landing Page</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam nobis
+          doloremque, neque iste molestias veniam repellendus perspiciatis?
+          Voluptas repellat reiciendis facilis ab voluptatibus sint ducimus
+          adipisci dignissimos odio cum doloribus, provident, libero fugiat hic
+          minima dolores nihil obcaecati enim reprehenderit nemo sapiente
+          eveniet. Possimus dolor velit nesciunt soluta recusandae quis unde
+          dignissimos alias incidunt provident, quas quasi nostrum doloribus
+          totam ut! Ex voluptatum sit corrupti sunt dolorum esse nulla quod unde
+          sint placeat, ea porro, iusto nemo quae modi earum vero impedit autem
+          mollitia est molestias totam libero sed illum!
+        </p>
+        <button>Login</button>
+      </div>
+
+      <div class="img">
+        <img src="https://github.com/Samiriddhi/f1-w2-Html-CssContest/blob/main/jeff%201.png?raw=true" alt="jeff bejoj" />
+      </div>
+    </section>
+
+    <section class="contactUs">
+      <h1>Contact Us</h1>
+      <form>
+        <div><input type="text" placeholder="Name" /></div>
+        <div><input type="email" placeholder="Email" /></div>
+        <div class="cnum">
+          <input type="text" placeholder="Mobile Number" />
+          <input type="text" placeholder="City" />
+        </div>
+        <button type="submit">Submit Form</button>
+      </form>
+    </section>
+
+    <section class="table">
+      <table>
+        <thead>
+          <tr>
+            <th>Serial No.</th>
+            <th>StartUp Name</th>
+            <th>StartUp Discription</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Wow India</td>
+            <td>StartUp With Wow Idea</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>GoUp India</td>
+            <td>StartUp With earn Idea</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Amazing India</td>
+            <td>StartUp With Amaizing product Idea</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Glow India</td>
+            <td>StartUp With Glow skin with Natural Products- Idea</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Healthy India</td>
+            <td>StartUp With Healthy Foods and diet Idea</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Fit India</td>
+            <td>StartUp With Stay Fit Idea</td>
+          </tr>
+          
+            <tr class="footer">
+              <td>00.</td>
+              <td>Yoga&Meditation</td>
+              <td>StartUp With Wow healthy yoga and exercises Idea</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

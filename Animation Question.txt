@@ -1,0 +1,36 @@
+You need to design a dynamic content card for a website that includes the following animations and interactions:
+
+Fade-In and Slide-Up on Page Load:
+
+The content card should smoothly fade in and slide up from the bottom of the viewport when the page loads.
+The fade-in and slide-up effect should last 1.5 seconds and use an ease-in-out timing function.
+The card should remain in its final position and opacity after the animation ends.
+Pulsing Effect on Hover:
+
+When a user hovers over the content card, it should pulse to draw attention.
+The pulsing effect should last 1 second per cycle, start immediately upon hover, and repeat indefinitely while hovering.
+The pulse should scale the card from its original size to 1.05 times its size and then return to the original size.
+Content Toggle on Button Click:
+
+Inside the content card, there is a button that toggles the visibility of additional content (e.g., a description or details section).
+When the button is clicked, the additional content should smoothly fade in or out.
+The fade effect should last 0.5 seconds and use an ease-in timing function.
+The additional content should be hidden by default and only visible when toggled.
+To achieve these requirements:
+
+Define the necessary @keyframes rules for fading in, sliding up, pulsing, and fading in/out.
+Write the CSS rules to apply these animations based on the described scenarios (page load, hover, and button click).
+Structure the HTML and CSS to ensure that the content card, pulsing effect, and content toggle function as specified.
+Provide the complete HTML and CSS code to achieve this functionality.
+
+Expected Solution Overview:
+HTML Structure:
+
+A container for the content card.
+An additional content section inside the card.
+A button to toggle the visibility of the additional content.
+CSS Code:
+
+Use @keyframes to define the animations for fade-in, slide-up, pulsing, and fading in/out.
+Apply animations using CSS properties such as animation, transition, transform, and opacity.
+Utilize CSS pseudo-classes and selectors to manage hover states and content toggling.

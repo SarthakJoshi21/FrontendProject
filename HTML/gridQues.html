@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grid Question</title>
+<style>
+  /* Reset some default styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Styles for the grid container */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto; /* Rows adjust based on content */
+    grid-template-areas:
+      "header header header"
+      "sidebar main main"
+      "footer footer footer";
+    gap: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  /* Styles for grid items */
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+  }
+
+  /* Define specific grid areas */
+  .header { grid-area: header; background-color: #3498db; }
+  .sidebar { grid-area: sidebar; background-color: #2ecc71; }
+  .main { grid-area: main; background-color: #e74c3c; }
+  .footer { grid-area: footer; background-color: #f39c12; }
+  .item1 { background-color: #9b59b6; }
+  .item2 { background-color: #1abc9c; }
+  .item3 { background-color: #e67e22; }
+  .item4 { background-color: #27ae60; }
+  .item5 { background-color: #f1c40f; }
+  .item6 { background-color: #34495e; }
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Single column layout */
+      grid-template-areas:
+        "header"
+        "sidebar"
+        "main"
+        "footer";
+    }
+  }
+</style>
+</head>
+<body>
+    <div class="grid-container">
+    <div class="grid-item header">Header</div>
+    <div class="grid-item sidebar">Sidebar</div>
+    <div class="grid-item main">Main Content</div>
+    <div class="grid-item footer">Footer</div>
+    <div class="grid-item item1">Item 1</div>
+    <div class="grid-item item2">Item 2</div>
+    <div class="grid-item item3">Item 3</div>
+    <div class="grid-item item4">Item 4</div>
+    <div class="grid-item item5">Item 5</div>
+    <div class="grid-item item6">Item 6</div>
+  </div>
+</body>
+</html>

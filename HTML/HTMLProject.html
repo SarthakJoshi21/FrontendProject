@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-color: #1A1C19;
+    width: 1728px;
+    height: 1117px;
+    top: -923px;
+    left: 37px;
+    margin: 10px;
+}
+
+/* nav-bar */
+.nav-bar {
+    position: sticky;
+    width: 100%;
+    max-width: 1687px;
+    height: 63px;
+    margin: 18px auto;
+    border-radius: 50px;
+    border: 1px solid #B1A592;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-bar1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #B1A592;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* rect */
+.rect-6, .rect-5, .rect-4, .rect-3, .rect-2 {
+    border: 1px solid #B1A592;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    height: 50px;
+}
+
+.rect-6 {
+    width: 184px;
+}
+
+.contact, .events, .menu, .collection, .company {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* Events */
+.rect-5 {
+    width: 184px;
+    margin-left: 20px;
+}
+
+/* Menu */
+.rect-4 {
+    width: 207px;
+    margin-left: 20px;
+}
+
+.rect-3 {
+  width: 236px;
+  margin-left: 20px;
+}
+
+/* Company */
+.rect-2 {
+  width: 282px;
+  background-color: #323025;
+  color: #fff;
+  margin-left: 20px;
+}
+
+/* section */
+.section {
+  margin: 10px;
+  margin-top: 25px;
+  display: flex;
+}
+
+/* left-section */
+.left-section {
+  padding-top: 20px;
+  background-color: #DFD6C5;
+  width: 667px;
+  height: 981px;
+  top: 99px;
+  left: 35px;
+  border-radius: 20px;
+}
+
+.para-box {.section-h {
+  display: inline;
+  margin-top: 20px;
+  margin-left:px;
+  width: 271px;
+  height: 29px;
+  top: 176px;
+  left: 53px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.05px;
+  
+}
+
+.section-image {
+  margin-top: 20px;
+  margin-left: 18px;
+  background-image: url("section1.png");
+  background-size: cover;
+  width: 631px;
+  height: 730px;
+  top: 224px;
+  left: 53px;
+  border-radius: 20px;
+
+    margin-left: 18px;
+    width: 207px;
+    height: 34px;
+    top: 132px;
+    left: 53px;
+    border-radius: 50px;
+    border: 1px solid #323025;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-p {
+    color: #323025;
+    width: 146px;
+    height: 24px;
+    top: 137px;
+    left: 84px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+
+
+</style>
+<body>
+    <div class="main-container">
+        <header>
+            <nav class="nav-bar">
+                <div class="nav-bar1">
+                    <div class="rect-2">
+                        <a class="company" href="#">Company</a>
+                    </div>
+                    <div class="rect-3" style="background-color: #B1A592">
+                        <a class="collection" style="background-color: #B1A592; color: #333333;" href="#">Collections</a>
+                    </div>
+                    <div class="rect-4">
+                        <a class="menu" href="#">Menu</a>
+                    </div>
+                    <div class="rect-5">
+                        <a class="events" href="#">Events</a>
+                    </div>
+                </div>
+                <div class="nav-bar2">
+                  <div class="rect-6">
+                    <a class="contact" href="#">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Body Section -->
+    <div class="section">
+        <div class="left-section">
+            <div class="para-box">
+                <p class="section-p">Loremipsum</p>
+            </div>
+            <div class="section-h" >
+                <h3>Loreum Ipsum Heading</h3>
+            </div>
+            <div class="section-image">
+            </div>
+            <div class="hr-line">
+                <hr>
+            </div>
+
+            <div class="get-strat">
+                <div class="get-strat-p">Get Started</div>
+                <div class="get-strat-arrow"> &#x2192 </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+          <!-- right upper -->
+          <div class="right-upper">
+              <div class="upper-section">
+                  <div class="upper-part-1">
+                      <div class="loreum-content">
+                          <div class="loreum-content-box">
+                              <div class="loreum-content-p">
+                                  <p>LOREUMIPSUM</p>
+                              </div>
+                          </div>
+
+                          <div class="loreum-content-h">
+                              <h3>Loreum Ipsum Heading</h3>
+                          </div>
+
+                          <div class="loreum-content-para">
+                              <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                              <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                              <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                          </div>
+
+                      </div>
+                      <div class="loreum-content-img"></div>
+                  </div>
+                  <div class="loreum-content-hr">
+                      <hr>
+                  </div>
+                </div>
+                <div class="upper-part-2">
+                    <div class="loreum-content-get-start">
+                        <div class="loreum-content-p-get">
+                            <p>Get Started</p>
+                        </div>
+                        <div class="loreum-content-arrow">&#x2192</div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="right-lower">
+            <div class="Portrait-content1">
+                <div class="porta-lower1">
+                    <div class="portaait-img"></div>
+                    <div class="portrait-h"> 
+                        <h3>Portrait</h3>
+                    </div >
+                    <div class="Portrait-p">
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    </div>
+
+                    <div class="Portrait-hr">
+                        <hr>
+                    </div>
+
+                    <div class="Portrait-start">
+                      <div class="get-s-p">
+                          Get Started
+                      </div>
+                      <div class="get-s-a">&#x2192</div>
+                  </div>
+                  
+              </div>
+          </div>
+          
+
+
+
+          <div class="potta-lower2">
+              <div class="rect-8">
+                  <div class="part1">
+                      <div class="part-1-1">
+                          <div class="part-1-box">
+                              <p class="part-1-p">LOREUMIPSUM</p>
+                          </div>
+
+                          <div class="part-1-h">
+                              <h3>Portrait</h3>
+                          </div>
+                      </div>
+                      <div class="part-1-img"></div>
+                    </div>
+                    <div class="part2">
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p> 
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                        <p>Loreum Ipsum Text Loreum Ipsum Text</p>
+                    </div>
+                    <div class="part2-hr">
+                        <hr>
+                    </div>
+                    <div class="part3">
+                        <div class="part3-get-start">Get Started</div>
+                        <div class="part3-arrow">&#x2192</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

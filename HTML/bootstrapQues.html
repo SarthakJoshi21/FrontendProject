@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .navbar-custom {
+      background-color: #007bff; /* Blue background */
+      color: white; /* White text */
+    }
+    .img{
+        width: 50px;
+        height:50px;
+    }
+  </style>
+  <title>Responsive Navigation Bar</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-dark sticky-top navbar-custom">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand" href="#"><img src="data:image/png;base64,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">MySite</a>
+    
+    <!-- Hamburger menu button for small screens -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <!-- Navigation links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Optional: Add some content to demonstrate scrolling -->
+<div class="container mt-5">
+  <h1>Scroll down to see the sticky effect</h1>
+  <p>This is my site.</p>
+</div>
+
+<!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

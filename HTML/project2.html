@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        background-color: goldenrod;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        gap: 35px;
+        list-style-type: none;
+        font-family: Georgia, serif;
+    }
+    .startup{
+        font-weight:bold ;
+        font-family: Georgia, serif;
+    }
+    .nav{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 20px;
+        padding: 2opx;
+    }
+    .landing-page{
+        color: white;
+        margin: 10px;
+        padding: 10px;
+
+    }
+    .para{
+        text-align: start;
+        width: 40%;
+        font-family: Georgia, serif;
+    }
+    .submit{
+        background-color:goldenrod ;
+        width: 10%;
+        color: black;
+        height: 35px;
+        border-radius: 50px;
+        font-weight: bold;
+        border: solid black;
+    }
+    .image{
+        width: 60px;
+        padding: 10px;
+        object-fit: cover;
+        height: 20px;
+        align-items: start;
+    }
+    .box{
+        display: flex;
+    }
+    .img{
+        border: 5px solid rgb(50, 50, 74);
+    }
+    img{
+        width: 40vw;
+
+    }
+h1{
+    color: white;
+    font-family: Georgia, serif;
+}
+.name{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: goldenrod;
+    background-color: black;
+    color: goldenrod;
+    font-family: Georgia, serif;
+}
+.email{
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: goldenrod;
+    background-color: black;
+    color: goldenrod;
+}
+.num{
+    width: 43%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: goldenrod;
+    background-color: black;
+    color: goldenrod;
+}
+.city{
+    width: 43%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    border-color: goldenrod;
+    background-color: black;
+    color: goldenrod;
+    display: inline;
+}
+.but{
+    background-color:goldenrod ;
+    width: 10%;
+    color: black;
+    height: 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: solid black;
+    font-family: Georgia, serif;
+}
+::placeholder{
+    color: goldenrod;
+    font-family: Georgia, serif;
+}
+table{
+    margin:50px 30px;
+    border-collapse: collapse;
+    background-color: black;
+    border-color: 1px solid goldenrod;
+    text-align: center;
+    width: 80%;
+    justify-content: center;
+}
+.n2{
+  background-color: goldenrod;
+  color: black;
+}
+table,th{
+    border:1px solid goldenrod;
+    width: 100vw;
+    border-color:  solid goldenrod;
+}
+th,td{
+    padding: 5px 10px;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    border-color: 1px solid goldenrod;
+}
+
+table{
+    color: var(--txtClr);
+    font-weight: bold;
+}
+
+</style>
+<body>
+        <nav class="navbar">
+            <div class="nav">Startup</div>
+            <ul class="listitem">
+                <li class="listitem">Home</li>
+                <li class="listitem">About Us</li>
+                <li class="listitem">Contact Us</li>
+                <li class="listitem">Login</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="box">
+    <div class="landing-page">
+        <h1>Startup Landing Page</h1>
+        <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <button type="submit" class="submit">Login</button>
+    </div>
+    <div class="image">
+        <img src="https://github.com/Samiriddhi/f1-w2-Html-CssContest/blob/main/jeff%201.png?raw=true" alt="image">
+    </div>
+    </div>
+    <form action="form" class="form">
+        <label for="start"><h1>Contact Us</h1></label>
+        <input type="text" name="name" id="name" placeholder="Name" class="name">
+        <input type="email" name="email" id="email" placeholder="Email" class="email">
+        <input type="number" name="number" id="number" placeholder="Mobile Number" class="num">
+        <input type="text" name="city" id="city" class="city" placeholder="City">
+        <button type="submit" class="but">Submit Form</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>SNO.</th>
+                <th>Startup Name</th>
+                <th>Startup Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>WOwIndia</td>
+                <td>A Startup wit WOW Ideas</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Loreum Ipsum</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Loreum Ipsum</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Loreum Ipsum</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Loreum Ipsum</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Loreum Ipsum</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>00.</td>
+                <td>Final Footer</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -10,11 +10,91 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<ul>
-		<li><a href="https://en.wikipedia.org/wiki/Golden_Retriever"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/BassetHound_profil.jpg"</a></li>
-		<li><a href="https://en.wikipedia.org/wiki/Poodle"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg"></a></li>
-	</ul>
+	<div class="book-library">
+        <h1>Book Library</h1>
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
+            <h2>Spy in the Amber</h2>
+            <p class="author">Abhishek Kumar</p>
+			<div id="price">
+				<p class="price">Rs. 200</p>
+			</div>
+            
+        </div>
+        <div class="book">
+            <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
+            <h2>Sacred Games</h2>
+            <p class="author">Khushi Singh</p>
+			<div id="price">
+				<p class="price">Rs. 300</p>
+			</div>
+            
+        </div>
+        <div class="book">
+            <img src="https://course.acciojob.com/open-web-editor?question=e8da6649-702b-4659-8b21-e2cfb6c720ce" alt="Byomkesh Bakshi">
+            <h2>Byomkesh Bakshi</h2>
+ <p class="author">Anurag Rai</p>
+			<div id="price">
+				<p class="price">Rs. 500</p>
+			</div>
+            
+        </div>
+    </div>
+
 
 </body>
 
 </html>
+
+
+/*  your css code here. If applicable */
+body {
+    background-color: #f8f8f8;
+}
+
+.book-library {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.book {
+    border: 3px solid grey;
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.book img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.book h2 {
+    text-align: left;
+}
+
+.book .author {
+    color: rgb(119, 119, 119);
+    text-align: left;
+}
+
+.book .price {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+}
+h1{
+	text-align:center;
+}
+#price{
+	 color:rgba(0, 0, 0, 0); 
+	background-color:rgb(46, 204, 113);
+	color:rgb(255, 255, 255);
+	 border-radius:3px;
+}

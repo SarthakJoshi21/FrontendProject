@@ -1,0 +1,11 @@
+#currentTime{
+      animation-name:slideIn, FadeIn, ScaleUp;
+      animation-duration:2s;
+      animation-timing-function:cube-bezier(n,n,n,n);
+      animation-delay:
+      animation-iteration-count:infinite;
+      animation-direction:alternate-reverse;
+      animation-fill-mode:both;
+      animation-play-state:paused;
+      
+      }
